@@ -1,0 +1,4 @@
+obj\Debug\net7.0/Eub.Adapter.Way4Ufx.InfoGrpc.cs \
+obj\Debug\net7.0/EubAdapterWay4UfxInfo.cs: Protos/V1/Way4UfxInfo/CustomTypes.proto\
+ C:/Users/BSultank/.nuget/packages/grpc.tools/2.58.0-pre1/build/native/include/google/protobuf/timestamp.proto\
+ Protos/V1/Way4UfxInfo/Eub.Adapter.Way4Ufx.Info.proto

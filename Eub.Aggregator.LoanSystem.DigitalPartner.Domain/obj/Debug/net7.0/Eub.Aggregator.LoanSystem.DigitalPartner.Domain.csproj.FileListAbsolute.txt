@@ -1,0 +1,11 @@
+C:\My Docs\GRPC Projects\Eub.Aggregator.LoanSystem.DigitalPartner\Eub.Aggregator.LoanSystem.DigitalPartner.Domain\bin\Debug\net7.0\Eub.Aggregator.LoanSystem.DigitalPartner.Domain.deps.json
+C:\My Docs\GRPC Projects\Eub.Aggregator.LoanSystem.DigitalPartner\Eub.Aggregator.LoanSystem.DigitalPartner.Domain\bin\Debug\net7.0\Eub.Aggregator.LoanSystem.DigitalPartner.Domain.dll
+C:\My Docs\GRPC Projects\Eub.Aggregator.LoanSystem.DigitalPartner\Eub.Aggregator.LoanSystem.DigitalPartner.Domain\bin\Debug\net7.0\Eub.Aggregator.LoanSystem.DigitalPartner.Domain.pdb
+C:\My Docs\GRPC Projects\Eub.Aggregator.LoanSystem.DigitalPartner\Eub.Aggregator.LoanSystem.DigitalPartner.Domain\obj\Debug\net7.0\Eub.Aggregator.LoanSystem.DigitalPartner.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\My Docs\GRPC Projects\Eub.Aggregator.LoanSystem.DigitalPartner\Eub.Aggregator.LoanSystem.DigitalPartner.Domain\obj\Debug\net7.0\Eub.Aggregator.LoanSystem.DigitalPartner.Domain.AssemblyInfoInputs.cache
+C:\My Docs\GRPC Projects\Eub.Aggregator.LoanSystem.DigitalPartner\Eub.Aggregator.LoanSystem.DigitalPartner.Domain\obj\Debug\net7.0\Eub.Aggregator.LoanSystem.DigitalPartner.Domain.AssemblyInfo.cs
+C:\My Docs\GRPC Projects\Eub.Aggregator.LoanSystem.DigitalPartner\Eub.Aggregator.LoanSystem.DigitalPartner.Domain\obj\Debug\net7.0\Eub.Aggregator.LoanSystem.DigitalPartner.Domain.csproj.CoreCompileInputs.cache
+C:\My Docs\GRPC Projects\Eub.Aggregator.LoanSystem.DigitalPartner\Eub.Aggregator.LoanSystem.DigitalPartner.Domain\obj\Debug\net7.0\Eub.Aggregator.LoanSystem.DigitalPartner.Domain.dll
+C:\My Docs\GRPC Projects\Eub.Aggregator.LoanSystem.DigitalPartner\Eub.Aggregator.LoanSystem.DigitalPartner.Domain\obj\Debug\net7.0\refint\Eub.Aggregator.LoanSystem.DigitalPartner.Domain.dll
+C:\My Docs\GRPC Projects\Eub.Aggregator.LoanSystem.DigitalPartner\Eub.Aggregator.LoanSystem.DigitalPartner.Domain\obj\Debug\net7.0\Eub.Aggregator.LoanSystem.DigitalPartner.Domain.pdb
+C:\My Docs\GRPC Projects\Eub.Aggregator.LoanSystem.DigitalPartner\Eub.Aggregator.LoanSystem.DigitalPartner.Domain\obj\Debug\net7.0\ref\Eub.Aggregator.LoanSystem.DigitalPartner.Domain.dll

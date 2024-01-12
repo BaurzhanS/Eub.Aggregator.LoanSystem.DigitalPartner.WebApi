@@ -1,0 +1,16 @@
+C:\My Docs\GRPC Projects\Eub.Aggregator.LoanSystem.DigitalPartner\Eub.Aggregator.LoanSystem.DigitalPartner.Application\bin\Debug\net7.0\Eub.Aggregator.LoanSystem.DigitalPartner.Application.deps.json
+C:\My Docs\GRPC Projects\Eub.Aggregator.LoanSystem.DigitalPartner\Eub.Aggregator.LoanSystem.DigitalPartner.Application\bin\Debug\net7.0\Eub.Aggregator.LoanSystem.DigitalPartner.Application.dll
+C:\My Docs\GRPC Projects\Eub.Aggregator.LoanSystem.DigitalPartner\Eub.Aggregator.LoanSystem.DigitalPartner.Application\bin\Debug\net7.0\Eub.Aggregator.LoanSystem.DigitalPartner.Application.pdb
+C:\My Docs\GRPC Projects\Eub.Aggregator.LoanSystem.DigitalPartner\Eub.Aggregator.LoanSystem.DigitalPartner.Application\obj\Debug\net7.0\Eub.Aggregator.LoanSystem.DigitalPartner.Application.csproj.AssemblyReference.cache
+C:\My Docs\GRPC Projects\Eub.Aggregator.LoanSystem.DigitalPartner\Eub.Aggregator.LoanSystem.DigitalPartner.Application\obj\Debug\net7.0\Eub.Aggregator.LoanSystem.DigitalPartner.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\My Docs\GRPC Projects\Eub.Aggregator.LoanSystem.DigitalPartner\Eub.Aggregator.LoanSystem.DigitalPartner.Application\obj\Debug\net7.0\Eub.Aggregator.LoanSystem.DigitalPartner.Application.AssemblyInfoInputs.cache
+C:\My Docs\GRPC Projects\Eub.Aggregator.LoanSystem.DigitalPartner\Eub.Aggregator.LoanSystem.DigitalPartner.Application\obj\Debug\net7.0\Eub.Aggregator.LoanSystem.DigitalPartner.Application.AssemblyInfo.cs
+C:\My Docs\GRPC Projects\Eub.Aggregator.LoanSystem.DigitalPartner\Eub.Aggregator.LoanSystem.DigitalPartner.Application\obj\Debug\net7.0\Eub.Aggregator.LoanSystem.DigitalPartner.Application.csproj.CoreCompileInputs.cache
+C:\My Docs\GRPC Projects\Eub.Aggregator.LoanSystem.DigitalPartner\Eub.Aggregator.LoanSystem.DigitalPartner.Application\obj\Debug\net7.0\Eub.Aggregator.LoanSystem.DigitalPartner.Application.dll
+C:\My Docs\GRPC Projects\Eub.Aggregator.LoanSystem.DigitalPartner\Eub.Aggregator.LoanSystem.DigitalPartner.Application\obj\Debug\net7.0\refint\Eub.Aggregator.LoanSystem.DigitalPartner.Application.dll
+C:\My Docs\GRPC Projects\Eub.Aggregator.LoanSystem.DigitalPartner\Eub.Aggregator.LoanSystem.DigitalPartner.Application\obj\Debug\net7.0\Eub.Aggregator.LoanSystem.DigitalPartner.Application.pdb
+C:\My Docs\GRPC Projects\Eub.Aggregator.LoanSystem.DigitalPartner\Eub.Aggregator.LoanSystem.DigitalPartner.Application\obj\Debug\net7.0\ref\Eub.Aggregator.LoanSystem.DigitalPartner.Application.dll
+C:\My Docs\GRPC Projects\Eub.Aggregator.LoanSystem.DigitalPartner\Eub.Aggregator.LoanSystem.DigitalPartner.Application\bin\Debug\net7.0\Eub.Aggregator.LoanSystem.DigitalPartner.Domain.dll
+C:\My Docs\GRPC Projects\Eub.Aggregator.LoanSystem.DigitalPartner\Eub.Aggregator.LoanSystem.DigitalPartner.Application\bin\Debug\net7.0\Eub.Aggregator.LoanSystem.DigitalPartner.Domain.pdb
+C:\My Docs\GRPC Projects\Eub.Aggregator.LoanSystem.DigitalPartner\Eub.Aggregator.LoanSystem.DigitalPartner.Application\obj\Debug\net7.0\Eub.Aggregator.LoanSystem.DigitalPartner.Application.csproj.CopyComplete
+C:\My Docs\GRPC Projects\Eub.Aggregator.LoanSystem.DigitalPartner\Eub.Aggregator.LoanSystem.DigitalPartner.Application\bin\Debug\net7.0\UFX.dll

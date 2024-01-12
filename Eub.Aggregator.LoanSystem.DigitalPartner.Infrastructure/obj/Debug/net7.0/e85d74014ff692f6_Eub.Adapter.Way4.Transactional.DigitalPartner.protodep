@@ -1,0 +1,3 @@
+obj\Debug\net7.0/Eub.Adapter.Way4.Transactional.DigitalPartnerGrpc.cs \
+obj\Debug\net7.0/EubAdapterWay4TransactionalDigitalPartner.cs: C:/Users/BSultank/.nuget/packages/grpc.tools/2.58.0-pre1/build/native/include/google/protobuf/timestamp.proto\
+ Protos/V1/Way4/Eub.Adapter.Way4.Transactional.DigitalPartner.proto

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "d1X+AdExrUyqLeSTfT3ORDlNV/cfNrV7smBctKXaFgu2LutVoIDIOa4L9FzO4XZebqxBtEKHgOwbs5LhUOsmgA==",
+  "success": true,
+  "projectFilePath": "C:\\My Docs\\GRPC Projects\\For testing\\Eub.Aggregator.LoanSystem.DigitalPartner\\Eub.Aggregator.LoanSystem.DigitalPartner.Application\\Eub.Aggregator.LoanSystem.DigitalPartner.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BSultank\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\BSultank\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
+    "C:\\Users\\BSultank\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\BSultank\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\BSultank\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
