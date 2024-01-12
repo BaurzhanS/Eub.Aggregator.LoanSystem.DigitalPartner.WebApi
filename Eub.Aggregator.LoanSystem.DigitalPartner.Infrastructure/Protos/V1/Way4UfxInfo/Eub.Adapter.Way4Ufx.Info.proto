@@ -1,0 +1,523 @@
+syntax = "proto3";
+
+option csharp_namespace = "Eub.Adapter.Way4Ufx.Info.gRPC.Protos.V1";
+
+package UfxInfo.V1;
+
+import "CustomTypes.proto";
+import "google/protobuf/timestamp.proto";
+
+service UfxInfo {
+  rpc Information (ObjectAppData) returns (Message);
+  rpc Application (ObjectAppData) returns (Message);
+}
+
+enum DirectionType {
+	Request = 0;
+	Response = 1;
+}
+
+message Message {
+	DirectionType Direction = 10;
+    string MessageType = 20;
+    string Scheme = 30;
+    string Version = 40;
+    string ResponseText = 50;
+    string ResponseCode = 60;
+    string ResponseClass = 70;
+    string MessageId = 80;
+    Source Source = 90;
+    UfxData Data = 100;
+}
+
+message Source {
+    string Name = 10;
+}
+
+message UfxData {
+    ObjectAppData Information = 10;
+    ObjectAppData Application = 20;
+    DocumentInfo Data = 30;
+    TransferData Doc = 40;
+}
+
+message ObjectAppData {
+    string RegNumber = 10;
+    string Institution = 20;
+    string InstitutionIDType = 30;
+    string OrderDepartment = 40;
+    string ServiceGroup = 50;
+    ValidationDtls ValidationDtls = 60;
+    string ObjectType = 70;
+    string ActionType = 80;
+    ResultDetails ResultDetails = 90;
+    string ProductGroup = 100;
+    ObjectFor ObjectFor = 110;
+    Data Data = 120;
+    DataResponse DataResponse = 130;
+    Status Status = 140;
+    AddData AddData = 150;
+    ObjectSubAppData SubApplication = 160;
+    //object Context = 10;
+    //object Requestor = 10;
+    //object Source = 10;
+}
+
+message ValidationDtls {
+    repeated Parameter Parameters = 10;
+}
+
+message Parameter {
+    string ParmType = 10;
+    string ParameterCode = 20;
+    string Value = 30;
+}
+
+message ResultDetails {
+    repeated Parameter Parameters = 10;
+    Filter Filter = 20;
+}
+
+message Filter {
+    string Type = 10;
+    string Code = 20;
+    string Parms = 30;    
+}
+
+message ObjectFor {
+    ContractIDT ContractIDT = 10;
+    ClientIDT ClientIDT = 20;
+    //object ApplicationIDT = 10;
+}
+
+message ContractIDT {
+    string ContractNumber = 10;
+    string CBSNumber = 20;
+    string RBSNumber = 30;
+    Client Client = 40;
+}
+
+message Client {
+    string Institution = 10;
+    string InstitutionIDType = 20;
+    string OrderDepartment = 30;
+    string ClientType = 40;
+    string ServiceGroup = 50;
+    string ClientCategory = 60;
+    ClientInfo ClientInfo = 70;
+    PlasticInfo PlasticInfo = 80;
+    PhoneList PhoneList = 90;
+    //object Affiliation = 10;
+    string DateOpen = 100;
+    string DateExpiry = 110;
+    Address BaseAddress = 120;
+    AdditionalInfo AddInfo = 130;
+}
+
+message ClientInfo {
+    string ClientNumber = 10;
+    string RegNumberType = 20;
+    string RegNumber = 30;
+    string RegNumberDetails = 40;
+    string ShortName = 50;
+    string TaxpayerIdentifier = 60;
+    string TaxPosition = 70;
+    string Title = 80;
+    string FirstName = 90;
+    string LastName = 100;
+    string MiddleName = 110;
+    string SecurityName = 120;
+    string Country = 130;
+    string Language = 140;
+    string MaritalStatus = 150;
+    string Position = 160;
+    string CompanyName = 170;
+    string CompanyTradeName = 180;
+    string BirthDate = 190;
+    string BirthPlace = 200;
+    string BirthName = 210;
+    string Gender = 220;
+    string MaskedFullName = 230;
+}
+
+message PlasticInfo {
+    string Title = 10;
+    string FirstName = 20;
+    string LastName = 30;
+    string CompanyName = 40;
+}
+
+message PhoneList {
+    repeated PhoneInfo Phones = 10;
+}
+
+message PhoneInfo {
+    string PhoneType = 10;
+    string PhoneNumber = 20;
+}
+
+message Address {
+    string AddressType = 10;
+    string FirstName = 20;
+    string LastName = 30;
+    PhoneList PhoneList = 40;
+    string EMail = 50;
+    string Country = 60;
+    string State = 70;
+    string City = 80;
+    string Street = 90;
+    string PostalCode = 100;
+    string AddressLine = 110;
+    string AddressLine1 = 120;
+    string AddressLine2 = 130;
+    string AddressLine3 = 140;
+    string AddressLine4 = 150;
+    ActivityPeriod ActivityPeriod = 160;
+}
+
+message ActivityPeriod {
+    string Activation = 10;
+    string DateFrom = 20;
+    string DateTo = 30;
+}
+
+message AdditionalInfo {
+    repeated Parameter Parameters = 10;
+    string AddInfo01 = 20;
+    string AddInfo02 = 30;
+    string AddInfo03 = 40;
+    string AddInfo04 = 50;
+    string AddDate01 = 60;
+}
+
+message ClientIDT {
+    string Institution = 10;
+    string ClientType = 20;
+    string ClientCategory = 30;
+    ClientInfo ClientInfo = 40;
+}
+
+message Data {
+    Client Client = 10;
+    Contract Contract = 20;
+    Address Address = 30;
+    AppInfo AppInfo = 40;
+    ProduceCard ProduceCard = 50;
+    SetStatus SetStatus = 60;
+    SetLimit SetLimit = 70;
+    repeated Classifier CustomerClassifiers = 80;
+    Instalment Instalment = 90;
+    InstalmentEarlyRepayment InstalmentEarlyRepayment = 100;
+    ContractUsage Usage = 110;
+}
+
+message Contract {
+    string Institution = 10;
+    string InstitutionIDType = 20;
+    string OrderDepartment = 30;
+    string ClientType = 40;
+    string ClientCategory = 50;
+    string ServiceGroup = 60;
+    ContractIDT ContractIDT = 70;
+    string Currency = 80;
+    string ContractName = 90;
+    string CommentText = 100;
+    Product Product = 110;
+    ProductionParameters ProductionParameters = 120;
+    PlasticInfo PlasticInfo = 130;
+    string DateOpen = 140;
+    CreditLimit CreditLimit = 150;
+    AdditionalContractInfo AddContractInfo = 160;
+    //object MainContract = 10;
+}
+
+message Product {
+    string ProductCode1 = 10;
+    string AccountScheme = 20;
+    string ContractSubType = 30;
+    string ServicePack = 40;
+    string CheckUsage = 50;
+    string ReportType = 60;
+    string ProductName = 70;
+    string ContractRole = 80;
+    AdditionalInfo AdditionalInfo = 90;
+}
+
+message ProductionParameters {
+    string DeliveryDprt = 10;
+    string CardExpiry = 20;
+    string CommentText = 30;
+    string SequenceNumber = 40;
+    SecurityParameters SecurityParameters = 50;
+}
+
+message SecurityParameters {
+    string CVC2 = 10;
+    string Code = 20;
+    string Type = 30;
+    string HexData = 40;
+}
+
+message CreditLimit {
+    Money FinanceLimit = 10;
+    string ReasonDetails = 20;
+}
+
+message Money {
+    CustomTypes.DecimalValue Amount = 10;
+    string Currency = 20;
+}
+
+message AdditionalContractInfo {
+    string AddInfo01 = 10;
+    string AddInfo02 = 20;
+    string AddInfo03 = 30;
+    string AddInfo04 = 40;
+    string AddDate02 = 50;
+    string AddDate01 = 60;
+    string ChangeInstitution = 70;
+    string ChangeInstitutionType = 80;
+    string ChangeClient = 90;
+}
+
+message AppInfo {
+    string InfoType = 10;
+    string GroupCode = 20;
+    string AddInfo01 = 30;
+    string AddInfo02 = 40;
+    string AddInfo03 = 50;
+    string AddInfo04 = 60;
+    string AddInfo05 = 70;
+    string AddInfo06 = 80;
+    string AddInfo07 = 90;
+    string AddDate01 = 100;
+    string AddDate02 = 110;
+    string AddDate03 = 120;
+    string AddNum01 = 130;
+    string AddNum02 = 140;
+    string AddNum03 = 150;
+    string AddNum04 = 160;
+    string AddNum05 = 170;
+}
+
+message ProduceCard {
+    string DeliveryDprt = 10;
+    string ProductionType = 20;
+    string ProductionEvent = 30;
+    string ChipScheme = 40;
+    string CardExpiry = 50;
+    string CommentText = 60;
+    string SequenceNumber = 70;
+    //object SecurityParms = 10;
+    AddData AddData = 80;
+}
+
+message AddData {
+    string IssueVirtualCard = 10;
+}
+
+message SetStatus {
+    string StatusCode = 10;
+    string StatusComment = 20;
+    string CloseDate = 30;
+}
+
+message SetLimit {
+    Money FinanceLimit = 10;
+    string ReasonDetails = 20;
+}
+
+message Classifier {
+    string Code = 10;
+    string Value = 20;
+    string ReasonDetails = 30;
+    ActivityPeriod ActivityPeriod = 40;
+}
+
+message Instalment {
+    string InstalmentIDT = 10;
+    string InstalmentCode = 20;
+    string InstalmentNumber = 30;
+}
+
+message InstalmentEarlyRepayment {
+    string InstalmentIDT = 10;
+    string EarlyRepaymentType = 20;
+}
+
+message ContractUsage {
+    string Code = 10;
+    int64 MaxNumber = 20;
+    Money MaxAmount = 30;
+    Money MaxSingleAmount = 40;
+    ActivityPeriod ActivityPeriod = 50;
+}
+
+message Status {
+    string RespClass = 10;
+    string RespCode = 20;
+    string RespText = 30;
+    string PostingStatus = 40;
+}
+
+message ObjectSubAppData {
+    repeated ObjectAppData Application = 10;
+}
+
+message DataResponse {
+    ClientResponse ClientResponse = 10;
+    repeated ContractResponse ContractResponse = 20;
+    //StatementResponse StatementResponse = 30;
+    //repeated DocumentData DocumentDataList = 40;
+}
+
+message ClientResponse {
+    Client Client = 10;
+}
+
+message ContractResponse {
+    Contract Contract = 10;
+    ContractInfo Info = 20;
+}
+
+message ContractInfo {
+    ContractStatus Status = 10;
+    repeated Balance Balances = 20;
+    repeated ContractUsageResponse Usages = 30;
+    repeated ContractResponse SubContracts = 40;
+    repeated Classifier Classifiers = 50;
+    repeated VisaToken Tokens = 60;
+}
+
+message ContractStatus {
+    string StatusClass = 10;
+    string StatusCode = 20;
+    string StatusDetails = 30;
+    string ProductionStatus = 40;
+}
+
+message Balance {
+    string Name = 10;
+    string Type = 20;
+    CustomTypes.DecimalValue Amount = 30;
+    string Currency = 40;
+}
+
+message ContractUsageResponse {
+    ContractUsage Usage = 10;
+    ContractUsageInfo Info = 20;
+}
+
+message ContractUsageInfo {
+    int64 CurrentNumber = 10;
+    Money CurrentAmount = 20;
+    string Status = 30;
+}
+
+message VisaToken {
+    string EntityType = 10;
+    string Value = 20;
+    string Guid = 30;
+    string IssuerName = 40;
+    Client Client = 50;
+    string ConsentDateTime = 60;
+    string Name = 70;
+    string Number = 80;
+    string Code = 90;
+    repeated VisaTokenParameter Parameters = 100;
+}
+
+message VisaTokenParameter {
+    string Code = 10;
+    string Value = 20;
+}
+
+message DocumentInfo {
+    TransactionType TransactionType = 10;
+    DocumentReferenceNumber DocumentReference = 20;
+    ContractWrapper Originator = 30;
+    ResultDetails ResultDetails = 40;
+    DataResponse DataResponse = 50;
+    Status Status = 60;
+}
+
+message TransactionType {
+    TransactionCode TransactionCode = 10;
+    string TransactionCondition = 20;
+    repeated Parameter TransactionRules = 30;
+    DisputeRules DisputeRules = 40;
+    string TransactionTypeId = 50;
+}
+
+message TransactionCode {
+    string MessageCode = 10;
+    string FinalizeCategory = 20;
+    string RequestCategory = 30;
+    string ServiceCode = 40;
+    string ServiceClass = 50;
+    string TransactionTypeCode = 60;
+    string TransactionTypeId = 70;
+}
+
+message DisputeRules {
+    string ReasonDetails = 10;
+}
+
+message DocumentReferenceNumber {
+    repeated Parameter Parameters = 10;
+}
+
+message ContractWrapper {
+    string ContractNumber = 10;
+    string CardHash = 20;
+    string CBSCardHash = 30;
+    CardInfo CardInfo = 40;
+    SecurityData SecurityData = 50;
+    string MemberId = 60;
+    string Relation = 70;
+    string TokenType = 80;
+    string TokenValue = 90;
+    Client Client = 100;
+}
+
+message CardInfo {
+    string CardExpiry = 10;
+    string PlasticNumber = 20;
+}
+
+message SecurityData {
+    repeated SecurityParameters SecurityParameters = 10;
+}
+
+message TransferData {
+    TransactionType TransactionType = 10;
+    DocumentReferenceNumber RequestIdentifiers = 20;
+    string TransactionDate = 30;
+    string Description = 40;
+    ContractWrapper ForContract = 50;
+    ContractWrapper RequestContract = 60;
+    ContractWrapper SourceContract = 70;
+    ContractWrapper DestinationContract = 80;
+    ResultDetails ResultDetails = 90;
+    TransactionInfo TransactionInfo = 100;
+    Billing Billing = 110;
+    Status Status = 120;
+    DataResponse DataResponse = 130;
+}
+
+message TransactionInfo {
+    string Currency = 10;
+    CustomTypes.DecimalValue Amount = 20;
+    TransactionExtraInfo ExtraInfo = 30;
+}
+
+message TransactionExtraInfo {
+    string ExtraInfoType = 10;
+    string Details = 20;
+}
+
+message Billing {
+    string PhaseDate = 10;
+    string Currency = 20;
+    CustomTypes.DecimalValue Amount = 30;
+}

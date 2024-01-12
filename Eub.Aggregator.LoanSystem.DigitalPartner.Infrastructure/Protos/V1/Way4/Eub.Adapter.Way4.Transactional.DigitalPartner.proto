@@ -1,0 +1,37 @@
+syntax = "proto3";
+
+option csharp_namespace = "Eub.Adapter.Way4.Transactional.DigitalPartner";
+
+package way4transactionalDigitalPartner;
+
+import "google/protobuf/timestamp.proto";
+
+service Way4TransactionalDigitalPartner {
+   rpc CreateDigitalPartner (CreateDigitalPartnerRequest) returns (CreateDigitalPartnerResponse);
+   rpc GetDigitalPartnerInfo (GetDigitalPartnerInfoRequest) returns (GetDigitalPartnerInfoResponse);
+}
+
+message CreateDigitalPartnerRequest {
+	string RequestId = 10;
+	string PartnerName = 20;
+	string MemberId = 30;
+	string MerchantId = 40;
+	string AmndOfficer = 50;
+	string PartnerContract = 60;
+}
+
+message CreateDigitalPartnerResponse {
+	string ResultOut = 10;
+}
+
+message GetDigitalPartnerInfoRequest {
+	string RequestId = 10;
+    string RRN = 20;
+    string CardNumber = 30;
+}
+
+message GetDigitalPartnerInfoResponse {
+	string ResultOut = 10;
+	string MerchantId = 20;
+    string MemberId = 30;
+}
