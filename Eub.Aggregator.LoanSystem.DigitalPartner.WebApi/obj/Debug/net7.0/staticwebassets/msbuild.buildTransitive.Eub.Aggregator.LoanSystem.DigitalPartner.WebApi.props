@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Eub.Aggregator.LoanSystem.DigitalPartner.WebApi.props" />
+</Project>

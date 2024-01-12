@@ -1,0 +1,349 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\My Docs\\GRPC Projects\\For testing\\Eub.Aggregator.LoanSystem.DigitalPartner\\Eub.Aggregator.LoanSystem.DigitalPartner.WebApi\\Eub.Aggregator.LoanSystem.DigitalPartner.WebApi.csproj": {}
+  },
+  "projects": {
+    "C:\\My Docs\\GRPC Projects\\For testing\\Eub.Aggregator.LoanSystem.DigitalPartner\\Eub.Aggregator.LoanSystem.DigitalPartner.Application\\Eub.Aggregator.LoanSystem.DigitalPartner.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\My Docs\\GRPC Projects\\For testing\\Eub.Aggregator.LoanSystem.DigitalPartner\\Eub.Aggregator.LoanSystem.DigitalPartner.Application\\Eub.Aggregator.LoanSystem.DigitalPartner.Application.csproj",
+        "projectName": "Eub.Aggregator.LoanSystem.DigitalPartner.Application",
+        "projectPath": "C:\\My Docs\\GRPC Projects\\For testing\\Eub.Aggregator.LoanSystem.DigitalPartner\\Eub.Aggregator.LoanSystem.DigitalPartner.Application\\Eub.Aggregator.LoanSystem.DigitalPartner.Application.csproj",
+        "packagesPath": "C:\\Users\\BSultank\\.nuget\\packages\\",
+        "outputPath": "C:\\My Docs\\GRPC Projects\\For testing\\Eub.Aggregator.LoanSystem.DigitalPartner\\Eub.Aggregator.LoanSystem.DigitalPartner.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BSultank\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\My Docs\\GRPC Projects\\For testing\\Eub.Aggregator.LoanSystem.DigitalPartner\\Eub.Aggregator.LoanSystem.DigitalPartner.Domain\\Eub.Aggregator.LoanSystem.DigitalPartner.Domain.csproj": {
+                "projectPath": "C:\\My Docs\\GRPC Projects\\For testing\\Eub.Aggregator.LoanSystem.DigitalPartner\\Eub.Aggregator.LoanSystem.DigitalPartner.Domain\\Eub.Aggregator.LoanSystem.DigitalPartner.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\My Docs\\GRPC Projects\\For testing\\Eub.Aggregator.LoanSystem.DigitalPartner\\Eub.Aggregator.LoanSystem.DigitalPartner.Domain\\Eub.Aggregator.LoanSystem.DigitalPartner.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\My Docs\\GRPC Projects\\For testing\\Eub.Aggregator.LoanSystem.DigitalPartner\\Eub.Aggregator.LoanSystem.DigitalPartner.Domain\\Eub.Aggregator.LoanSystem.DigitalPartner.Domain.csproj",
+        "projectName": "Eub.Aggregator.LoanSystem.DigitalPartner.Domain",
+        "projectPath": "C:\\My Docs\\GRPC Projects\\For testing\\Eub.Aggregator.LoanSystem.DigitalPartner\\Eub.Aggregator.LoanSystem.DigitalPartner.Domain\\Eub.Aggregator.LoanSystem.DigitalPartner.Domain.csproj",
+        "packagesPath": "C:\\Users\\BSultank\\.nuget\\packages\\",
+        "outputPath": "C:\\My Docs\\GRPC Projects\\For testing\\Eub.Aggregator.LoanSystem.DigitalPartner\\Eub.Aggregator.LoanSystem.DigitalPartner.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BSultank\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\My Docs\\GRPC Projects\\For testing\\Eub.Aggregator.LoanSystem.DigitalPartner\\Eub.Aggregator.LoanSystem.DigitalPartner.Infrastructure\\Eub.Aggregator.LoanSystem.DigitalPartner.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\My Docs\\GRPC Projects\\For testing\\Eub.Aggregator.LoanSystem.DigitalPartner\\Eub.Aggregator.LoanSystem.DigitalPartner.Infrastructure\\Eub.Aggregator.LoanSystem.DigitalPartner.Infrastructure.csproj",
+        "projectName": "Eub.Aggregator.LoanSystem.DigitalPartner.Infrastructure",
+        "projectPath": "C:\\My Docs\\GRPC Projects\\For testing\\Eub.Aggregator.LoanSystem.DigitalPartner\\Eub.Aggregator.LoanSystem.DigitalPartner.Infrastructure\\Eub.Aggregator.LoanSystem.DigitalPartner.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\BSultank\\.nuget\\packages\\",
+        "outputPath": "C:\\My Docs\\GRPC Projects\\For testing\\Eub.Aggregator.LoanSystem.DigitalPartner\\Eub.Aggregator.LoanSystem.DigitalPartner.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BSultank\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\My Docs\\GRPC Projects\\For testing\\Eub.Aggregator.LoanSystem.DigitalPartner\\Eub.Aggregator.LoanSystem.DigitalPartner.Application\\Eub.Aggregator.LoanSystem.DigitalPartner.Application.csproj": {
+                "projectPath": "C:\\My Docs\\GRPC Projects\\For testing\\Eub.Aggregator.LoanSystem.DigitalPartner\\Eub.Aggregator.LoanSystem.DigitalPartner.Application\\Eub.Aggregator.LoanSystem.DigitalPartner.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.24.2, )"
+            },
+            "Grpc.Net.Client": {
+              "target": "Package",
+              "version": "[2.57.0-pre1, )"
+            },
+            "Grpc.Net.ClientFactory": {
+              "target": "Package",
+              "version": "[2.57.0-pre1, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.58.0-pre1, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.Extensions.Http.Polly": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\My Docs\\GRPC Projects\\For testing\\Eub.Aggregator.LoanSystem.DigitalPartner\\Eub.Aggregator.LoanSystem.DigitalPartner.WebApi\\Eub.Aggregator.LoanSystem.DigitalPartner.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\My Docs\\GRPC Projects\\For testing\\Eub.Aggregator.LoanSystem.DigitalPartner\\Eub.Aggregator.LoanSystem.DigitalPartner.WebApi\\Eub.Aggregator.LoanSystem.DigitalPartner.WebApi.csproj",
+        "projectName": "Eub.Aggregator.LoanSystem.DigitalPartner.WebApi",
+        "projectPath": "C:\\My Docs\\GRPC Projects\\For testing\\Eub.Aggregator.LoanSystem.DigitalPartner\\Eub.Aggregator.LoanSystem.DigitalPartner.WebApi\\Eub.Aggregator.LoanSystem.DigitalPartner.WebApi.csproj",
+        "packagesPath": "C:\\Users\\BSultank\\.nuget\\packages\\",
+        "outputPath": "C:\\My Docs\\GRPC Projects\\For testing\\Eub.Aggregator.LoanSystem.DigitalPartner\\Eub.Aggregator.LoanSystem.DigitalPartner.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BSultank\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\My Docs\\GRPC Projects\\For testing\\Eub.Aggregator.LoanSystem.DigitalPartner\\Eub.Aggregator.LoanSystem.DigitalPartner.Application\\Eub.Aggregator.LoanSystem.DigitalPartner.Application.csproj": {
+                "projectPath": "C:\\My Docs\\GRPC Projects\\For testing\\Eub.Aggregator.LoanSystem.DigitalPartner\\Eub.Aggregator.LoanSystem.DigitalPartner.Application\\Eub.Aggregator.LoanSystem.DigitalPartner.Application.csproj"
+              },
+              "C:\\My Docs\\GRPC Projects\\For testing\\Eub.Aggregator.LoanSystem.DigitalPartner\\Eub.Aggregator.LoanSystem.DigitalPartner.Domain\\Eub.Aggregator.LoanSystem.DigitalPartner.Domain.csproj": {
+                "projectPath": "C:\\My Docs\\GRPC Projects\\For testing\\Eub.Aggregator.LoanSystem.DigitalPartner\\Eub.Aggregator.LoanSystem.DigitalPartner.Domain\\Eub.Aggregator.LoanSystem.DigitalPartner.Domain.csproj"
+              },
+              "C:\\My Docs\\GRPC Projects\\For testing\\Eub.Aggregator.LoanSystem.DigitalPartner\\Eub.Aggregator.LoanSystem.DigitalPartner.Infrastructure\\Eub.Aggregator.LoanSystem.DigitalPartner.Infrastructure.csproj": {
+                "projectPath": "C:\\My Docs\\GRPC Projects\\For testing\\Eub.Aggregator.LoanSystem.DigitalPartner\\Eub.Aggregator.LoanSystem.DigitalPartner.Infrastructure\\Eub.Aggregator.LoanSystem.DigitalPartner.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Grpc.AspNetCore.HealthChecks": {
+              "target": "Package",
+              "version": "[2.57.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.19.4, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

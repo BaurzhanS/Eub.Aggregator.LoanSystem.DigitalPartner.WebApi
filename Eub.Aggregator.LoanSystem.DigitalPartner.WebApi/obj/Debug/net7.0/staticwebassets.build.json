@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "BExXT+kahrSIsWizMTinUrEbHgFQta47jFicZ8bUsAk=",
+  "Source": "Eub.Aggregator.LoanSystem.DigitalPartner.WebApi",
+  "BasePath": "_content/Eub.Aggregator.LoanSystem.DigitalPartner.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
